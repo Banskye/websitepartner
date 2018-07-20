@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+      <!-- Name of tab -->
+      <title>Lovely Desserts</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- css file -->
+      <link rel="stylesheet" href="dessertsCSSfile.css">
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    </head>
+
+    <body>
+      <div class="header">
+        <h1>Lovely Desserts</h1>
+      </div>
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Home')"id="defaultOpen">Home</button>
+        <button class="tablinks" onclick="openTab(event, 'Recipes')">Recipes</button>
+        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+        <button class="tablinks" onclick="openTab(event, 'Pictures')">Pictures</button>
+        <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+      </div>
+
+      <!-- Tab content -->
+      <div id="Home" class="tabcontent">
+        <p> This is a website all about desserts!
+          You can look at pictures, A.K.A dessert porn.
+          Find recipes, or get creative ideas from this wonderful website.
+          Please contact us if you want to put your bakery's information on this website.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Xml6TYtQIqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+
+      <div id="Recipes" class="tabcontent">
+        <u>
+          <li><a href="https://www.bettycrocker.com/recipes/peach-pie/51016eca-6e6a-4a4f-a8ec-a22e89223bb6">Peach Pie Recipe</a></li>
+          <li><a href="https://www.bettycrocker.com/recipes/cake-mix-chocolate-chip-cookies/23eee91e-ef20-4fbb-ae29-ed98110d7a8c">Cake Mix Chocolate Chip Cookies</a></li>
+        </u>
+      </div>
+
+      <div id="Contact" class="tabcontent">
+        <p>Contact info goes here</p>
+      </div>
+
+      <div id="Pictures" class="tabcontent">
+        <p><img src="http://ohsheglows.com/gs_images/2015/06/almondbutterfudgesquare-8983.jpg" alt="Salted Almond Butter Freezer Fudge">
+        <div>Salted Almond Butter Freezer Fudge</div></p>
+        <p><img src="https://img.grouponcdn.com/iam/3Uo73p8B8qZ8NwV5k1M3mdXHaNHT/3U-2048x1229/v1/c700x420.jpg" alt="Crêpe salée et sucrée">
+        <div>Crêpe salée et sucrée</div></p>
+      </div>
+
+      <div id="About" class="tabcontent">
+        <p>About info goes here</p>
+      </div>
+
+
+        <!-- Copyright -->
+        <footer style="color:pink;">Made by Vivian &copy;  2018</footer>
+
+
+
+        <!-- java script -->
+        <script src="desserts.js"></script>
+    </body>
+</html>

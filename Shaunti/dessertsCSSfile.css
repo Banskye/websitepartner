@@ -1,0 +1,65 @@
+/* Style title */
+.header {
+    text-align: center;
+    background-image: url("http://betterbakingbible.com/wp-content/uploads/2013/07/pink-background.png");
+    color: black;
+    padding: 14px 16px;
+}
+.header h1 {
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
+body {
+    background-color: #f35f6c;
+}
+img {
+    width:50%;
+}
+* {
+    box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+/* Style the tab*/
+.tab {
+    overflow: hidden;
+    border: 1px solid #37a4a7;
+    background-color: #6ec2b1;
+}
+
+/* Style the buttons that are used to open the tab content*/
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover*/
+.tab button:hover {
+    background-color: #37a4a7;
+}
+
+/* Create an active/current tablink class*/
+.tab button.active {
+    background-color: #37a4a7;
+}
+
+/* Style the tab content*/
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial;
+    height: 100%;
+    color: #e4dcee;
+}
